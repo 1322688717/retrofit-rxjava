@@ -2,9 +2,10 @@ package com.example.httprequest.application;
 
 import android.app.Application;
 
+import com.llw.mvplibrary.BaseApplication;
 import com.llw.network.NetworkApi;
 
-public class MyApplication extends Application {
+public class MyApplication extends BaseApplication {
 
     @Override
     public void onCreate() {
