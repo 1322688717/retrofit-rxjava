@@ -1,16 +1,15 @@
-package com.example.httprequest;
+package com.example.httprequest.view;
 
 import android.os.Bundle;
-import android.widget.TextView;
+
+import com.example.httprequest.R;
 import com.example.httprequest.contract.WeatherContract;
 import com.llw.mvplibrary.mvp.MvpActivity;
+import com.llw.mvplibrary.ulits.StatusBarUtil;
 
 
 public class MainActivity extends MvpActivity<WeatherContract.WeatherPresenter> implements WeatherContract.IWeatherView {
 
-    private TextView tv_temp;
-    private String key = "66d721a1d6024ca8b6c257fcab036de7";
-    private String location = "101010100";
 
     @Override
     public int getLayoutId() {
@@ -29,24 +28,16 @@ public class MainActivity extends MvpActivity<WeatherContract.WeatherPresenter> 
     @Override
     public void initData(Bundle savedInstanceState) {
         initView();
+        StatusBarUtil.initStatusBar(context);
 
-        mPresenter.getWeather(key,location);
     }
 
-    /**
-     * 显示温度
-     * @param temp
-     */
-    @Override
-    public void showTemp(String temp) {
-        tv_temp.setText(temp);
-    }
 
 
     /**
      * 绑定视图
      */
     private void initView() {
-        tv_temp = findViewById(R.id.tv_temp);
+
     }
 }

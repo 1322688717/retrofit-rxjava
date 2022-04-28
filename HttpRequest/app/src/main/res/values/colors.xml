@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <drawable name="btn_focused">#7F6C6C6C</drawable>
+    <drawable name="btn_normal">#86D1D1D1</drawable>
+
 </resources>

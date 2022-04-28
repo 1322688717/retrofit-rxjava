@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/app/src/main/res/drawable/btn_login.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/app/src/main/res/drawable/btn_select.xml" value="0.331" />
+        <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/app/src/main/res/layout/activity_login.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/app/src/main/res/layout/activity_register.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/app/src/main/res/layout/activity_start_page.xml" value="0.4036458333333333" />
         <entry key="..\:/Users/Administrator/Desktop/retrofit-rxjava/HttpRequest/mvplibrary/src/main/res/layout/dialog_loading.xml" value="0.1609375" />
       </map>
     </option>

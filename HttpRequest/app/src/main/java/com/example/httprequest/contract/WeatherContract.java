@@ -18,7 +18,7 @@ public class WeatherContract {
                 @Override
                 public void onSuccess(BeanNowWeatherResponse beanNowWeatherResponse) {
                     if (getView()!=null){
-                        getView().showTemp(beanNowWeatherResponse.getNow().getTemp());
+                       // getView().showTemp(beanNowWeatherResponse.getNow().getTemp());
                     }
                 }
 
@@ -31,6 +31,9 @@ public class WeatherContract {
     }
 
     public interface IWeatherView extends BaseView {
-        void showTemp(String response);
+//        void loginSuccess();
+//        void loginFail();
+//        void intentRegister();
+//        void intentForget();
     }
 }
